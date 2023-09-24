@@ -1,0 +1,100 @@
+/**************************** begin genral style ****************************/
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 991px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 576px) {
+  :root {
+    font-size: 11px;
+  }
+}
+/**************************** end general style ****************************/
+
+/**************************** begin header style ****************************/
+@media screen and (max-width: 991px) {
+  .navbar-nav .nav-link::after {
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .header-content {
+    height: unset;
+    min-height: 70vh;
+    padding-bottom: 1rem;
+    justify-content: end !important;
+    text-align: end;
+  }
+}
+@media screen and (max-width: 200px) {
+  .navbar {
+    display: none;
+  }
+}
+
+/**************************** end header style ****************************/
+
+/**************************** begin about style ****************************/
+@media screen and (max-width: 992px) {
+  .left-side > div {
+    align-items: end !important;
+  }
+  .about .left-side-item {
+    height: 25% !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about .left-side-item {
+    border: 0 !important;
+    height: unset !important;
+    width: 100% !important;
+    margin-bottom: 3rem;
+  }
+}
+/**************************** end about style ****************************/
+
+/**************************** start contact style ****************************/
+@media screen and (min-width: 1200px) {
+  .contact-form {
+    padding-inline: 10rem;
+  }
+}
+/**************************** end contact style ****************************/
+
+/**************************** start resume style ****************************/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .resume-contnet .range::after {
+    right: 0;
+    left: unset;
+  }
+}
+@media screen and (max-width: 575px) {
+  .resume-contnet .range::after {
+    right: 0;
+    left: unset;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .resume .left-side,
+  .resume .right-side {
+    padding-right: 0;
+  }
+}
+
+/**************************** end resume style ****************************/
